@@ -19,11 +19,6 @@ async def say_hello(ctx):
     await ctx.send(f'Hello, {ctx.author.name}!')
 
 
-@bot.command(name='jp2')
-async def say_hello(ctx):
-    await ctx.send(f'JP2GMD')
-
-
 @bot.command(name='olx')
 async def scrape_olx(ctx):
     # Call the scrape function
@@ -42,4 +37,4 @@ async def scrape_olx(ctx):
 
 
 
-bot.run('MTA4OTg0NzE1MDk5NDc5MjQ4OQ.GsduM5.4d9wsI8VW_J7VLmCCDWr7lKq2NRGDS4dK2nEfw')
+bot.run('bot_token')
